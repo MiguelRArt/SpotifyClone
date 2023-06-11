@@ -1,9 +1,24 @@
 import './App.css';
+import Icono from './componentes/Icono';
+import Options from './componentes/NavOptions.jsx';
+import BackOptions from './componentes/NavBehindOpt.jsx';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className='App'>
+      <div className='navBar'>
+        <div className='navBarSup'>
+          <Icono />
+          <Options icono='home' nickLabel='Inicio'/>
+          <Options icono='search' nickLabel='Search'/>
+          <Options icono='library' nickLabel='Search'/>            
+          <Options icono='add' nickLabel='Crear Playlist'/>
+          <Options icono='heart' nickLabel='Tus me gusta'/>        
+        </div>
+        <div className='navBarInf'>
+          <BackOptions />
+        </div>
+      </div>
     </div>
   );
 }

@@ -3,3 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.navBar{
+  background-color: black;
+  height: 100vh;
+  width:260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navBarSup{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding: 25px;
+  flex-direction: column;
+}
+
+.navBarSup:last-child{
+  margin-top: 20px;
+}
+
+.navBarInf{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding: 25px;
+  flex-direction: column;
+}

@@ -1,0 +1,80 @@
+.Opt{
+  display: flex;
+  flex-direction: row;
+  align-items: center;    
+  width: 100%;
+  margin-bottom: 20px;  
+}
+
+.Opt:hover > ion-icon{
+  color: white;
+  transition: all 0.3s;
+}
+
+.Opt:hover > label{
+  color: white;
+  transition: all 0.3s;
+}
+
+ion-icon {
+  color: #B3B3B3;
+  font-size:26px;  
+}   
+
+label{
+  color: #B3B3B3;
+  margin-left:20px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.OptBehind{
+  width: 100%;
+  height: auto; 
+}
+
+.OptBehind a{
+  font-size: 12px;  
+  text-decoration: none;
+  color: gray;
+}
+
+.OptBehind a:hover{  
+  color: white;  
+  text-decoration: underline;  
+}
+
+.btnLang{
+  border: 1px solid rgba(255, 255, 255, 0.479);
+  border-radius: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btnLang label{
+  margin: 0;
+  width: 50%;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btnLang ion-icon{  
+  color: white;
+  font-size: 20px; 
+  cursor: pointer; 
+}
+
+.btnLang:hover{  
+  border: 1px solid white;
+  width: 218px;
+  height: 53px;
+  cursor: pointer;
+}
