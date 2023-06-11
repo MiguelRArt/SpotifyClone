@@ -8,7 +8,7 @@ function Album(props){
           <img draggable='false' className='img' src={require(`../imgs/${props.img}.png`)} />
           <h3 className='title'>{props.title}</h3>
           <p className='description'>{props.description}</p>
-          <a href='https://www.youtube.com/'><ion-icon class='playIcon' name="play-circle"></ion-icon></a>
+          <a target='blank' href={`https://www.youtube.com/results?search_query=${props.title}`}><ion-icon class='playIcon' name="play-circle"></ion-icon></a>
         </div>
       </a>
   );
