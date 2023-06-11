@@ -1,0 +1,61 @@
+.linkAlbum{
+  min-width: 170px;
+  height: 280px;
+  padding: 20px;
+  background-color: #1212128c;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.linkAlbum:hover{
+  background-color: #7a7a7a3b;
+  transition: all 0.3s ease-in-out;
+}
+
+.albumContenedor{
+  width: 85%;
+  position: absolute;
+  top: 15px;
+}
+
+.albumContenedor .img{
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.albumContenedor .title{
+  color: white;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.albumContenedor .description{
+  color: rgba(255, 255, 255, 0.568);
+  font-size: 14px;
+  margin-top: 15px;
+  font-weight: 200;
+  height: 20%;  
+}
+
+.albumContenedor ion-icon{
+  font-size: 50px;
+  color: rgb(80, 180, 80);
+  position: absolute;
+  right: -10px;
+  top: 130px; 
+  display: none;   
+}
+
+.albumContenedor ion-icon:hover{
+  font-size: 55px;
+}
+
+.linkAlbum:hover ion-icon{  
+  display: block;  
+}

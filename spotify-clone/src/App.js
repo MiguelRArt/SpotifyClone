@@ -3,6 +3,7 @@ import Icono from './componentes/Icono';
 import Options from './componentes/NavOptions.jsx';
 import BackOptions from './componentes/NavBehindOpt.jsx';
 import Header from './componentes/Header.jsx';
+import Album from './componentes/Album.jsx';
 
 function App() {
   return (
@@ -22,8 +23,452 @@ function App() {
       </div>
 
       <div className='Header'>
-        <Header />
+        <Header />        
       </div>
+      
+      <div className='Content'>
+
+        <Album 
+          img='Deep'
+          title='Deep Focus'
+          description='Echoes of the Soul: Deep Music Explorations'  
+        />
+        <Album 
+          img='AllOut'
+          title='All Out'
+          description='Unleashed Energy: AllOut Anthems and Explosive Beats'  
+        />
+        <Album 
+          img='Focus'
+          title='Focus Music'
+          description='Harmonious Serenity: An Instrumental Journey'  
+        />
+        <Album 
+          img='Instrumental'
+          title='Instrumental Music'
+          description='Mindful Melodies: The Flow of Focus'  
+        />
+        <Album 
+          img='Peaceful'
+          title='Peaceful Piano'
+          description='Tranquil Reflections: A Peaceful Soundtrack'  
+        />
+        <Album 
+          img='RapCaviar'
+          title='Rap Caviar'
+          description='Rhyme Revolution: RapCaviar`s Finest Flow Collection'  
+        />
+        <Album 
+          img='Deep'
+          title='Deep Focus'
+          description='Echoes of the Soul: Deep Music Explorations'  
+        />
+        <Album 
+          img='AllOut'
+          title='All Out'
+          description='Unleashed Energy: AllOut Anthems and Explosive Beats'  
+        />
+        <Album 
+          img='Focus'
+          title='Focus Music'
+          description='Harmonious Serenity: An Instrumental Journey'  
+        />
+        <Album 
+          img='Instrumental'
+          title='Instrumental Music'
+          description='Mindful Melodies: The Flow of Focus'  
+        />
+        <Album 
+          img='Peaceful'
+          title='Peaceful Piano'
+          description='Tranquil Reflections: A Peaceful Soundtrack'  
+        />
+        <Album 
+          img='RapCaviar'
+          title='Rap Caviar'
+          description='Rhyme Revolution: RapCaviar`s Finest Flow Collection'  
+        />
+        <Album 
+          img='Deep'
+          title='Deep Focus'
+          description='Echoes of the Soul: Deep Music Explorations'  
+        />
+        <Album 
+          img='AllOut'
+          title='All Out'
+          description='Unleashed Energy: AllOut Anthems and Explosive Beats'  
+        />
+        <Album 
+          img='Focus'
+          title='Focus Music'
+          description='Harmonious Serenity: An Instrumental Journey'  
+        />
+        <Album 
+          img='Instrumental'
+          title='Instrumental Music'
+          description='Mindful Melodies: The Flow of Focus'  
+        />
+        <Album 
+          img='Peaceful'
+          title='Peaceful Piano'
+          description='Tranquil Reflections: A Peaceful Soundtrack'  
+        />
+        <Album 
+          img='RapCaviar'
+          title='Rap Caviar'
+          description='Rhyme Revolution: RapCaviar`s Finest Flow Collection'  
+        />
+        <Album 
+          img='Deep'
+          title='Deep Focus'
+          description='Echoes of the Soul: Deep Music Explorations'  
+        />
+        <Album 
+          img='AllOut'
+          title='All Out'
+          description='Unleashed Energy: AllOut Anthems and Explosive Beats'  
+        />
+        <Album 
+          img='Focus'
+          title='Focus Music'
+          description='Harmonious Serenity: An Instrumental Journey'  
+        />
+        <Album 
+          img='Instrumental'
+          title='Instrumental Music'
+          description='Mindful Melodies: The Flow of Focus'  
+        />
+        <Album 
+          img='Peaceful'
+          title='Peaceful Piano'
+          description='Tranquil Reflections: A Peaceful Soundtrack'  
+        />
+        <Album 
+          img='RapCaviar'
+          title='Rap Caviar'
+          description='Rhyme Revolution: RapCaviar`s Finest Flow Collection'  
+        />
+        <Album 
+          img='Deep'
+          title='Deep Focus'
+          description='Echoes of the Soul: Deep Music Explorations'  
+        />
+        <Album 
+          img='AllOut'
+          title='All Out'
+          description='Unleashed Energy: AllOut Anthems and Explosive Beats'  
+        />
+        <Album 
+          img='Focus'
+          title='Focus Music'
+          description='Harmonious Serenity: An Instrumental Journey'  
+        />
+        <Album 
+          img='Instrumental'
+          title='Instrumental Music'
+          description='Mindful Melodies: The Flow of Focus'  
+        />
+        <Album 
+          img='Peaceful'
+          title='Peaceful Piano'
+          description='Tranquil Reflections: A Peaceful Soundtrack'  
+        />
+        <Album 
+          img='RapCaviar'
+          title='Rap Caviar'
+          description='Rhyme Revolution: RapCaviar`s Finest Flow Collection'  
+        />
+        <Album 
+          img='Deep'
+          title='Deep Focus'
+          description='Echoes of the Soul: Deep Music Explorations'  
+        />
+        <Album 
+          img='AllOut'
+          title='All Out'
+          description='Unleashed Energy: AllOut Anthems and Explosive Beats'  
+        />
+        <Album 
+          img='Focus'
+          title='Focus Music'
+          description='Harmonious Serenity: An Instrumental Journey'  
+        />
+        <Album 
+          img='Instrumental'
+          title='Instrumental Music'
+          description='Mindful Melodies: The Flow of Focus'  
+        />
+        <Album 
+          img='Peaceful'
+          title='Peaceful Piano'
+          description='Tranquil Reflections: A Peaceful Soundtrack'  
+        />
+        <Album 
+          img='RapCaviar'
+          title='Rap Caviar'
+          description='Rhyme Revolution: RapCaviar`s Finest Flow Collection'  
+        />
+        <Album 
+          img='Deep'
+          title='Deep Focus'
+          description='Echoes of the Soul: Deep Music Explorations'  
+        />
+        <Album 
+          img='AllOut'
+          title='All Out'
+          description='Unleashed Energy: AllOut Anthems and Explosive Beats'  
+        />
+        <Album 
+          img='Focus'
+          title='Focus Music'
+          description='Harmonious Serenity: An Instrumental Journey'  
+        />
+        <Album 
+          img='Instrumental'
+          title='Instrumental Music'
+          description='Mindful Melodies: The Flow of Focus'  
+        />
+        <Album 
+          img='Peaceful'
+          title='Peaceful Piano'
+          description='Tranquil Reflections: A Peaceful Soundtrack'  
+        />
+        <Album 
+          img='RapCaviar'
+          title='Rap Caviar'
+          description='Rhyme Revolution: RapCaviar`s Finest Flow Collection'  
+        /><Album 
+          img='Deep'
+          title='Deep Focus'
+          description='Echoes of the Soul: Deep Music Explorations'  
+        />
+        <Album 
+          img='AllOut'
+          title='All Out'
+          description='Unleashed Energy: AllOut Anthems and Explosive Beats'  
+        />
+        <Album 
+          img='Focus'
+          title='Focus Music'
+          description='Harmonious Serenity: An Instrumental Journey'  
+        />
+        <Album 
+          img='Instrumental'
+          title='Instrumental Music'
+          description='Mindful Melodies: The Flow of Focus'  
+        />
+        <Album 
+          img='Peaceful'
+          title='Peaceful Piano'
+          description='Tranquil Reflections: A Peaceful Soundtrack'  
+        />
+        <Album 
+          img='RapCaviar'
+          title='Rap Caviar'
+          description='Rhyme Revolution: RapCaviar`s Finest Flow Collection'  
+        />
+        <Album 
+          img='Deep'
+          title='Deep Focus'
+          description='Echoes of the Soul: Deep Music Explorations'  
+        />
+        <Album 
+          img='AllOut'
+          title='All Out'
+          description='Unleashed Energy: AllOut Anthems and Explosive Beats'  
+        />
+        <Album 
+          img='Focus'
+          title='Focus Music'
+          description='Harmonious Serenity: An Instrumental Journey'  
+        />
+        <Album 
+          img='Instrumental'
+          title='Instrumental Music'
+          description='Mindful Melodies: The Flow of Focus'  
+        />
+        <Album 
+          img='Peaceful'
+          title='Peaceful Piano'
+          description='Tranquil Reflections: A Peaceful Soundtrack'  
+        />
+        <Album 
+          img='RapCaviar'
+          title='Rap Caviar'
+          description='Rhyme Revolution: RapCaviar`s Finest Flow Collection'  
+        />
+        <Album 
+          img='Deep'
+          title='Deep Focus'
+          description='Echoes of the Soul: Deep Music Explorations'  
+        />
+        <Album 
+          img='AllOut'
+          title='All Out'
+          description='Unleashed Energy: AllOut Anthems and Explosive Beats'  
+        />
+        <Album 
+          img='Focus'
+          title='Focus Music'
+          description='Harmonious Serenity: An Instrumental Journey'  
+        />
+        <Album 
+          img='Instrumental'
+          title='Instrumental Music'
+          description='Mindful Melodies: The Flow of Focus'  
+        />
+        <Album 
+          img='Peaceful'
+          title='Peaceful Piano'
+          description='Tranquil Reflections: A Peaceful Soundtrack'  
+        />
+        <Album 
+          img='RapCaviar'
+          title='Rap Caviar'
+          description='Rhyme Revolution: RapCaviar`s Finest Flow Collection'  
+        />
+        <Album 
+          img='Deep'
+          title='Deep Focus'
+          description='Echoes of the Soul: Deep Music Explorations'  
+        />
+        <Album 
+          img='AllOut'
+          title='All Out'
+          description='Unleashed Energy: AllOut Anthems and Explosive Beats'  
+        />
+        <Album 
+          img='Focus'
+          title='Focus Music'
+          description='Harmonious Serenity: An Instrumental Journey'  
+        />
+        <Album 
+          img='Instrumental'
+          title='Instrumental Music'
+          description='Mindful Melodies: The Flow of Focus'  
+        />
+        <Album 
+          img='Peaceful'
+          title='Peaceful Piano'
+          description='Tranquil Reflections: A Peaceful Soundtrack'  
+        />
+        <Album 
+          img='RapCaviar'
+          title='Rap Caviar'
+          description='Rhyme Revolution: RapCaviar`s Finest Flow Collection'  
+        />
+        <Album 
+          img='Deep'
+          title='Deep Focus'
+          description='Echoes of the Soul: Deep Music Explorations'  
+        />
+        <Album 
+          img='AllOut'
+          title='All Out'
+          description='Unleashed Energy: AllOut Anthems and Explosive Beats'  
+        />
+        <Album 
+          img='Focus'
+          title='Focus Music'
+          description='Harmonious Serenity: An Instrumental Journey'  
+        />
+        <Album 
+          img='Instrumental'
+          title='Instrumental Music'
+          description='Mindful Melodies: The Flow of Focus'  
+        />
+        <Album 
+          img='Peaceful'
+          title='Peaceful Piano'
+          description='Tranquil Reflections: A Peaceful Soundtrack'  
+        />
+        <Album 
+          img='RapCaviar'
+          title='Rap Caviar'
+          description='Rhyme Revolution: RapCaviar`s Finest Flow Collection'  
+        />
+        <Album 
+          img='Deep'
+          title='Deep Focus'
+          description='Echoes of the Soul: Deep Music Explorations'  
+        />
+        <Album 
+          img='AllOut'
+          title='All Out'
+          description='Unleashed Energy: AllOut Anthems and Explosive Beats'  
+        />
+        <Album 
+          img='Focus'
+          title='Focus Music'
+          description='Harmonious Serenity: An Instrumental Journey'  
+        />
+        <Album 
+          img='Instrumental'
+          title='Instrumental Music'
+          description='Mindful Melodies: The Flow of Focus'  
+        />
+        <Album 
+          img='Peaceful'
+          title='Peaceful Piano'
+          description='Tranquil Reflections: A Peaceful Soundtrack'  
+        />
+        <Album 
+          img='RapCaviar'
+          title='Rap Caviar'
+          description='Rhyme Revolution: RapCaviar`s Finest Flow Collection'  
+        />
+        <Album 
+          img='Deep'
+          title='Deep Focus'
+          description='Echoes of the Soul: Deep Music Explorations'  
+        />
+        <Album 
+          img='AllOut'
+          title='All Out'
+          description='Unleashed Energy: AllOut Anthems and Explosive Beats'  
+        />
+        <Album 
+          img='Focus'
+          title='Focus Music'
+          description='Harmonious Serenity: An Instrumental Journey'  
+        />
+        <Album 
+          img='Instrumental'
+          title='Instrumental Music'
+          description='Mindful Melodies: The Flow of Focus'  
+        />
+        <Album 
+          img='Peaceful'
+          title='Peaceful Piano'
+          description='Tranquil Reflections: A Peaceful Soundtrack'  
+        />
+        <Album 
+          img='RapCaviar'
+          title='Rap Caviar'
+          description='Rhyme Revolution: RapCaviar`s Finest Flow Collection'  
+        />
+        <Album 
+          img='Deep'
+          title='Deep Focus'
+          description='Echoes of the Soul: Deep Music Explorations'  
+        />
+        <Album 
+          img='AllOut'
+          title='All Out'
+          description='Unleashed Energy: AllOut Anthems and Explosive Beats'  
+        />
+        <Album 
+          img='Focus'
+          title='Focus Music'
+          description='Harmonious Serenity: An Instrumental Journey'  
+        />
+        <Album 
+          img='Instrumental'
+          title='Instrumental Music'
+          description='Mindful Melodies: The Flow of Focus'  
+        />                
+      </div>
+      
     </div>
   );
 }

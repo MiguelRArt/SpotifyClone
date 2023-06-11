@@ -11,7 +11,7 @@
   transition: all 0.3s;
 }
 
-.Opt:hover > label{
+.Opt:hover > a{
   color: white;
   transition: all 0.3s;
 }
@@ -21,11 +21,12 @@ ion-icon {
   font-size:26px;  
 }   
 
-label{
+.Opt a{
   color: #B3B3B3;
   margin-left:20px;
   font-weight: 700;
   font-size: 14px;
+  text-decoration: none;
 }
 
 .OptBehind{

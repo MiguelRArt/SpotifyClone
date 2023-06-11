@@ -5,7 +5,7 @@ function Options(props) {
   return( 
     <div className='Opt'>
       <ion-icon name={`${props.icono}-sharp`}></ion-icon>
-      <label>{props.nickLabel} </label>
+      <a href='#'>{props.nickLabel} </a>
     </div>
   );
 }
