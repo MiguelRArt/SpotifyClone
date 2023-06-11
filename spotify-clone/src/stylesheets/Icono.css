@@ -1,12 +1,7 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 svg{
   color: white;
   width: 135px;  
   cursor: pointer;
   margin-bottom: 30px;
 }
+

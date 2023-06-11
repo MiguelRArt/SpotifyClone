@@ -2,6 +2,7 @@ import './App.css';
 import Icono from './componentes/Icono';
 import Options from './componentes/NavOptions.jsx';
 import BackOptions from './componentes/NavBehindOpt.jsx';
+import Header from './componentes/Header.jsx';
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
         <div className='navBarInf'>
           <BackOptions />
         </div>
+      </div>
+
+      <div className='Header'>
+        <Header />
       </div>
     </div>
   );
